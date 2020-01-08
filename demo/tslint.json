@@ -1,0 +1,21 @@
+// {
+//     "defaultSeverity": "warning",
+//     "extends": ["tslint:recommended"],
+//     "linterOptions": {
+//       "exclude": ["node_modules/**"]
+//     },
+//     "rules": {
+//       "object-literal-key-quotes": [true, "as-needed"],
+//       "arrow-parens": [true, "ban-single-arg-parens"], // (x) => {} 箭头函数参数只有一个时是否要有小括号。
+//       "no-console": false, // 关闭console告警
+//       // "semicolon": [true, "always"], // 句尾添加分号
+//       "indent": [true, "spaces", 2], // 缩进字节数
+//       "interface-name": false,
+//       "no-consecutive-blank-lines": false,
+//       "object-literal-sort-keys": false,
+//       "max-line-length": [true, 240],
+//       "ordered-imports": false,
+//       "quotemark": [true, "single"] // 使用单引号代替双引号
+//     }
+//   }
+  
